@@ -4,6 +4,7 @@ import EventList from '../views/EventListView.vue'
 import AboutView from '../views/AboutView.vue'
 
 import EventListView2 from '../views/EventListView2.vue'
+import StudentEventListView from '../views/StudentEventListView.vue'
 
 const routes = [
   {
@@ -23,6 +24,11 @@ const routes = [
     path: '/event2',
     name: 'event2',
     component: EventListView2
+  },
+  {
+    path: '/students',
+    name: 'students',
+    component: StudentEventListView
   }
 ]
 
