@@ -1,7 +1,9 @@
-import { createApp } from "vue";
-import App from "./App.vue";
-import rounter from "./rounter";
-import store from "./store";
-createApp(App).mount("#app");
-let x = "helxysx";
-console.log(x);
+import { createApp } from 'vue'
+import App from './App.vue'
+import router from './router'
+import store from './store'
+
+createApp(App).use(store).use(router).mount('#app')
+
+let x = 'asdasd'
+console.log(x)
